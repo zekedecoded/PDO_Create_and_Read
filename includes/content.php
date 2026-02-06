@@ -18,19 +18,21 @@ $Record->Add();
             <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Mobile No. :</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPassword3" name="mobile_no">
+                    <input type="number" class="form-control" id="inputPassword3" name="mobile_no"
+                        placeholder="09XXXXXXXXX">
                 </div>
             </div>
             <div class="row mb-3">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email ID :</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3" name="email">
+                    <input type="email" class="form-control" id="inputEmail3" name="email"
+                        placeholder="sampleuser@email.com">
                 </div>
             </div>
             <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Address :</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPassword3" name="addi">
+                    <input type="text" class="form-control" id="inputPassword3" name="addi" placeholder="ex. Cabiao">
                 </div>
             </div>
             <div class="row mb-3">
@@ -42,9 +44,20 @@ $Record->Add();
             <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Gender :</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPassword3" name="gender">
+                    <select class="form-select" aria-label="Default select" name="gender">
+                        <option selected="">...</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Prefer to not say">Prefer not to say...</option>
+                    </select>
                 </div>
             </div>
+            <!-- <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Gender :</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputPassword3" name="gender">
+                </div>
+            </div> -->
             <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Father's Name :</label>
                 <div class="col-sm-10">
@@ -57,22 +70,37 @@ $Record->Add();
                     <input type="text" class="form-control" id="inputPassword3" name="language_known">
                 </div>
             </div>
-            <div class="row mb-3">
+            <!-- <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Marital Status :</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputPassword3" name="marital_stats">
+                </div>
+            </div> -->
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Marital Status :</label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select" name="gender">
+                        <option selected="">...</option>
+                        <option value="Male">Single</option>
+                        <option value="Female">Married</option>
+                        <option value="Widowed">Divorced</option>
+                        <option value="Widowed">Widowed</option>
+                        <option value="Separated">Separated</option>
+                    </select>
                 </div>
             </div>
             <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Religion :</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPassword3" name="religion">
+                    <input type="text" class="form-control" id="inputPassword3" name="religion"
+                        placeholder="ex. Catholic">
                 </div>
             </div>
             <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Hobbies :</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPassword3" name="hobbies">
+                    <input type="text" class="form-control" id="inputPassword3" name="hobbies"
+                        placeholder="ex. Playing">
                 </div>
             </div>
             <button type="submit" id="submitBtn" class="btn btn-primary" name="Add">Submit</button>
