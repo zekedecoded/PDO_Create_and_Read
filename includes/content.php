@@ -9,40 +9,40 @@ $Record->Add();
     <div class="container fw-bolder">
         <form method="POST">
             <div class="row mb-3">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Name: </label>
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputEmail3" placeholder="ex. Juan Dela Cruz"
                         name="full_name">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Mobile No. :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Mobile No.</label>
                 <div class="col-sm-10">
                     <input type="number" class="form-control" id="inputPassword3" name="mobile_no"
                         placeholder="09XXXXXXXXX">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email ID :</label>
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email ID</label>
                 <div class="col-sm-10">
                     <input type="email" class="form-control" id="inputEmail3" name="email"
                         placeholder="sampleuser@email.com">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Address :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Address</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputPassword3" name="addi" placeholder="ex. Cabiao">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Date of Birth :</label>
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Date of Birth</label>
                 <div class="col-sm-10">
                     <input type="date" class="form-control" id="inputEmail3" name="date_of_birth">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Gender :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Gender</label>
                 <div class="col-sm-10">
                     <select class="form-select" aria-label="Default select" name="gender">
                         <option selected="">...</option>
@@ -59,13 +59,13 @@ $Record->Add();
                 </div>
             </div> -->
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Father's Name :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Father's Name</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputPassword3" name="father_name">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Languages Known :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Languages Known</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputPassword3" name="language_known">
                 </div>
@@ -77,7 +77,7 @@ $Record->Add();
                 </div>
             </div> -->
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Marital Status :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Marital Status</label>
                 <div class="col-sm-10">
                     <select class="form-select" aria-label="Default select" name="gender">
                         <option selected="">...</option>
@@ -90,14 +90,14 @@ $Record->Add();
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Religion :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Religion</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputPassword3" name="religion"
                         placeholder="ex. Catholic">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Hobbies :</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Hobbies</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputPassword3" name="hobbies"
                         placeholder="ex. Playing">
