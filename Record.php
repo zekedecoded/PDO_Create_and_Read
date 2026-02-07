@@ -5,7 +5,7 @@ require "./connection/pdo_connection4.php";
 class Record
 {
     public string $full_name;
-    public int $mobile_no;
+    public string $mobile_no;
     public string $email;
     public string $addi;
     public string $date_of_birth;

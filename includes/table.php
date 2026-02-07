@@ -17,10 +17,12 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($data as $row1) { ?>
+            <?php foreach ($data as $row1) {
+                $number++;
+                ?>
                 <tr>
                     <th scope="row">
-                        <?= $row1['person_ID'] ?>
+                        <?= $number ?>
                     </th>
                     <td><?= $row1['full_name'] ?> </td>
                     <td><?= $row1['mobile_no'] ?> </td>
