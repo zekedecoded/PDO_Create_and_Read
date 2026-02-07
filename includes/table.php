@@ -1,4 +1,4 @@
-<div class="table-responsive-xl">
+<div class="table-responsive-xl container">
     <table class="table">
         <thead>
             <tr>

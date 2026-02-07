@@ -1,5 +1,7 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <?php
-
 // PDO Connections
 include 'Record.php';
 require_once './connection/pdo_connection4.php'; //API 
@@ -13,6 +15,6 @@ $data = $Record->getAll(); //fetch data
 include_once 'libraries.php';
 
 // contents
-include './includes/content.php';
+include './includes/content1.php';
 include './includes/table.php';
 ?>
