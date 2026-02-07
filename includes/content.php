@@ -79,7 +79,7 @@ $Record->Add();
             <div class="row mb-3">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Marital Status</label>
                 <div class="col-sm-10">
-                    <select class="form-select" aria-label="Default select" name="gender">
+                    <select class="form-select" aria-label="Default select" name="marital_stats">
                         <option selected="">...</option>
                         <option value="Male">Single</option>
                         <option value="Female">Married</option>
@@ -103,7 +103,7 @@ $Record->Add();
                         placeholder="ex. Playing">
                 </div>
             </div>
-            <button type="submit" id="submitBtn" class="btn btn-primary" name="Add">Submit</button>
+            <button type="button" id="submitBtn" class="btn btn-primary" name="Add">Submit</button>
         </form>
     </div>
 </body>
