@@ -42,7 +42,7 @@ class Record
             $this->hobbies = $_POST['hobbies'];
         }
     }
-
+    // ADDING FUNCTION
     public function Add()
     {
         if (isset($_POST['Add'])) {
